@@ -7,4 +7,9 @@ o resultado no terminal.
 
 >>>Tudo em X86_64 - Linux.
 
+## Fluxo 
 
+_start 
+|______ chama função soma (a, b)
+|______ conversão de resultado para string 
+|______ syscall write ---> imprime result. 
