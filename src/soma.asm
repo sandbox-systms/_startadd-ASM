@@ -48,9 +48,9 @@ soma:
 
 int_to_string:
 
-    mov rsx, buffer 
+    mov rcx, buffer 
     mov rcx, 31
-    mov byte, [rcx], 0 
+    mov byte [rcx], 0 
 
 .convert:
 
